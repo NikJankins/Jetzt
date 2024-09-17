@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #1e3c72;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .feature {
+    margin: 20px;
+}
+
+.features h3 {
+    font-size: 1.5em;
+}
+
+.features p {
+    font-size: 1em;
+}
+
+.contact {
+    background-color: #e9ecef;
+    padding: 50px 0;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    border: none;
+    background-color: #1e3c72;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #2a5298;
+}
+
+footer {
+    background-color: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
